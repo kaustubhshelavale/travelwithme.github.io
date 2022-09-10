@@ -1,0 +1,79 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+body{
+    height: max-content;
+    background-size: cover;
+    background-position: center;
+    margin: 0%;
+}
+.navbar{ 
+    height: 60px; 
+    width: 100%; 
+    margin-top: 0px; 
+    padding: 0 ; 
+    position: relative; 
+    background-color: darkturquoise;
+}
+nav{ 
+    display: flex; 
+    align-items:center; 
+    /* justify-content: space-between; */
+}
+.logo{ 
+    display: flex; 
+    align-items: center;
+}
+.nav-links{ 
+    padding: 0 10px;
+}
+.navlinksul{
+    margin-left: 400px;
+}
+.nav-links li{  
+    display: inline-flex; 
+    padding: 10px 10px; 
+    border-radius: 5px;
+}
+.nav-links li a{ 
+    text-decoration: solid; 
+    color: white; 
+    padding: 5px 0; 
+    position: relative;
+}
+.active, .nav-links li:hover{
+    background-color: red; 
+    border-radius: 2px;
+}
+
+.gallaryimages{
+    height: 800px;
+    width: auto;
+    border: 1px solid;
+}
+.gallaryslogan{
+    height: 30px;
+    background-color: blueviolet;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.places{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+.places div{
+    border: 1px groove;
+}
+
+.places div section img{
+    height: 300px;
+    width: 424px;
+}
+.places div section p{
+    text-decoration: none;
+    background-color: darkcyan;
+    color: white;
+}

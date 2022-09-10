@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelWithMe</title>
+    
+    <link rel="shortcut icon" href="../images/favicon_io/favicon.ico" type="image/x-icon">
+    <!-- page icon downloaded from faviconsite -->
+
+    <link rel="stylesheet" href="home.css"/>
+    <!-- refer the stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <!-- to use font-awesome icons in html code link>>> https://cdnjs.com/libraries/font-awesome  -->
+</head>
+<body>
+
+    <div id="homePage"> 
+
+        <div class="navbar">
+        <nav class="nav-links">
+            <!-- navigation bar -->
+            <a href=""><img src="../images/websitelogo.png" class="logo" alt="logo" width="156" height="56"></a>
+            <ul>
+                <li class="active"><a href="" style="color: white;">Home</a></li>
+                <li><a href="../gallaryPage/gallary.html" style="color: white;" target="_blank">Gallary</a></li>
+                <li><a href="./errorPage.html" target="_blank" style="color: white;">Packages</a></li>
+                <li><a href="./errorPage.html" target="_blank" style="color: white;">Contact</a></li>
+                <li><a href="./errorPage.html" target="_blank" style="color: white;">Feedback</a></li>
+            </ul>
+            <ul>
+                <li id="loginbtn"><a href="./errorPage.html" target="_blank" style="color: white;">LOGIN</a></li>
+            </ul>
+        </nav>
+        </div>
+
+
+        <div class="rex">
+            <ul>
+             <li class="active1"><a  href=""><i class="fa-solid fa-plane"></i> Flights</a> </li>
+             <li><a href=""><i class="fa-solid fa-bed"></i> Hotels </a> </li>
+             <li><a href=""><i class="fa-solid fa-home"></i> Home Stays </a> </li>
+             <li><a href=""><i class="fa-solid fa-train-tram"></i> Trains </a> </li>
+            <li><a href=""><i class="fa-solid fa-bus"></i> Bus    </a> </li>
+             <li><a href=""><i class="fa-solid fa-taxi"></i> Cabs   </a> </li>
+            </ul>
+         </div>
+
+
+         <div>
+                <div class="migration">
+                    <fieldset class="migrationfieldset">
+                        <form action="#" method="post">
+                            <ul type="none">
+                                <li style="width: 240px;"><label for="deparature">From</label></li>
+                                <li style="width: 60px;"> </li>
+                                <li style="width: 240px;"><label for="arrival">To</label></li>
+                            </ul>
+                            <br>
+                            <ul type="none">
+                                <li style="width: 240px;"> <select style="width: 240px;" name="deparature" id="deparature">
+                                    <optgroup label="India">
+                                        <option value="">Mumbai</option>
+                                        <option value="">Goa</option>
+                                        <option value="">New Delhi</option>
+                                        <option value="">Chennai</option>
+                                        <option value="">Banglore</option>
+                                    </optgroup>
+                                    <optgroup label="UK">
+                                        
+                                    </optgroup>
+                                </select> </li>
+                                <li style="width: 20px;"></li>
+                                <li > <i class="fa-solid fa-arrow-right-arrow-left"></i> </li>
+                                <li style="width: 20px;"></li>
+                                <li style="width: 240px;"> <select style="width: 240px;" name="arrival" id="arrival">
+                                    <optgroup label="India">
+                                <option value="">Goa</option>
+                                <option value="">New Delhi</option>
+                                <option value="">Chennai</option>
+                                <option value="">Banglore</option>
+                                    </optgroup>
+                                    <optgroup label="USA">
+                                <option value="">New York</option>
+                                <option value="">Atlanta</option>
+                                <option value="">Los Angeles</option>
+                                <option value="">Chicago</option>
+                                <option value="">Dallas</option>
+                            </optgroup>
+                        </select> </li>
+                        <li style="width: 80px;"></li>
+                        <li>
+                            <button id="sflights"><a href="../homePage/errorPage.html" target="_blank"> Search Flights</a></button>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul type="none">
+                        <li style="width: 116px;"><label for="deparature">Departure</label></li>
+                        <li style="width: 115px;"><label for="deparature">Return</label></li>
+                        <li style="width: 70px;"></li>
+                        <li style="width: 116px;"><label for="deparature">Passengers</label></li>
+                        <li style="width: 115px;"><label for="deparature">Class</label></li>
+                        <li><label for="deparature">&nbsp;</label></li>
+                        <li><label for="deparature">&nbsp;</label></li>
+                    </ul>
+                    <br>
+                    <ul type="none" class="selectpack2">
+                        <li style="width: 116px;"><input type="date" name="deparature" id="deparature"></li>
+                        <li style="width: 115px;"><input type="date" name="return" id="return"></li>
+                        <li style="width: 70px;"></li>
+                        <li style="width: 116px;"><select style="width: 116px;" name="passengers" id="">
+                            <optgroup label="adult">
+                            <option value="">1 adult</option>
+                            <option value="">2 adults</option>
+                            <option value="">3 adults</option>
+                            </optgroup>
+                            <optgroup label="childrens">
+                            <option value="">1 children</option>
+                            <option value="">2 childrens</option>
+                            <option value="">3 childrens</option>
+                            </optgroup>
+                        </select></li>
+                        <li style="width: 130px;"><select style="width: 130px;" name="class" id="">
+                            <option value="">Economy</option>
+                            <option value="">Premium</option>
+                            <option value="">Business</option>
+                            <option value="">First</option> 
+                        </li>
+                        <li style="width: 20px;"> </li>
+                    <li>
+                        <div id="nsfonlyy">
+                        <input type="checkbox" name="nsfonly" id="nsfonly">
+                        <label  for="nsfonly">Nonstop flights only</label>
+                    </div>
+                    </li>
+                    </ul>
+                </form>
+            </fieldset>
+        </div>
+    </div>              
+</div>
+
+
+<div id="gallary-home-page">
+    <section style="align-items: center; justify-content: center; background-color: slateblue; color: white; padding-left: 500px;">
+        <h1>Choose your Favorite Place</h1>
+    </section>
+
+    <div class="gallaryimages">
+        
+        <br>
+        <div class="places">
+            <div class="maharashtraGallary">
+               <section>
+                <a href=""><img src="../gallaryPage/pictures/Maharashtra2.jpg" alt="maharashtraGallary">
+                <p>MAHARASHTRA</p></a>
+               </section> 
+            </div>
+
+            <div class="karnatakaGallary">
+                <section>
+                    <a href=""><img src="../gallaryPage/pictures/Karnataka2.jpg" alt="karnatakaGallary">
+                    <p>KARNATAKA</p></a>
+                   </section> 
+            </div>
+
+            <div class="goaGallary">
+                <section>
+                    <a href=""><img src="../gallaryPage/pictures/goa.jpg" alt="goaGallary">
+                    <p>GOA</p></a>
+                   </section> 
+            </div>
+        </div>
+<br>
+        <div class="places">
+            <div class="delhiGallary">
+                <section>
+                    <a href=""><img src="../gallaryPage/pictures/delhi2.jpg" alt="delhiGallary">
+                    <p>DELHI</p></a>
+                </section> 
+            </div>
+
+            <div class="rajasthanGallary">
+                <section>
+                    <a href=""><img src="../gallaryPage/pictures/RAJASTAN.png" alt="rajasthanGallary">
+                    <p>RAJASTHAN</p></a>
+                </section>
+            </div>
+
+            <div class="keralaGallary">
+                <section>
+                    <a href=""><img src="../gallaryPage/pictures/KERELA2.jpg" alt="keralaGallary">
+                    <p>KERALA</p></a>
+                </section>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

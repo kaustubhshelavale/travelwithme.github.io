@@ -1,0 +1,251 @@
+    @import url(../gallaryPage/gallary.css);
+    
+    *{
+    padding: 0px;
+    margin: 0px;    
+    }
+    body{
+        height: max-content;
+        background-size: cover;
+        background-position: center;
+        margin: 0%;
+    }
+    .navbar{ height: 60px; width: 100%; margin-top: 0px; 
+        padding: 0 ; position: relative; background-color: darkturquoise;
+    }
+    nav{ display: flex; 
+        align-items:center; 
+        justify-content: space-between;
+    }
+        .logo{ display: flex; align-items: center;
+    }
+        #loginbtn{ background: blue; color: white; padding: 10px 30px; border-radius: 3px; cursor: pointer;
+    }
+    .nav-links{ 
+        padding: 0 10px;
+    }
+        .nav-links li{  color: white; display: inline-block; padding: 10px 10px; border-radius: 5px; margin: 0 2px;
+    }
+        .nav-links li a{ text-decoration: solid; color: white; padding: 5px 0; position: relative;
+    }
+    .active, .nav-links li:hover{
+        background-color: red; border-radius: 2px;
+    }
+    
+    
+    
+    .rex{
+        background-color: cadetblue;
+        text-align: left;
+        height: 45px;
+        margin-top: -15px;
+    }
+    .rex ul{
+        display: flex;
+        list-style: none;
+        color: white;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    .rex ul li{
+        width: 140px;
+        height: 25px;
+        text-align: center;
+        padding: 10px;
+    }
+    .rex ul li a{
+        text-decoration: none;
+        color: white;
+        
+    }
+    .active1, .rex ul li:hover{
+        background-color: midnightblue;
+        border-radius: 3px;
+    }
+    .rex .fa-solid{
+        padding: 5px 0px;
+        margin-right: 5px;
+    }
+
+.homeimg{
+    margin-top: 0;
+    width: 100%;
+    height: 300px;
+    /* opacity: 60%; */
+}
+.migration{
+    background-image: url(../images/homeTravel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 1310px;
+    height: auto;
+}
+.migrationfieldset{
+    border: 2px solid grey;
+    border-radius: 20px;
+    margin-left: 150px;
+    margin-top: 150px;
+    position: initial;
+    align-items: center;
+    background-color: yellowgreen;
+    width: 950px;
+    height: 260px;
+}
+.migration ul{
+    margin-top: 20px;
+    margin-left: 60px;
+    display: inline-flex;
+}
+.migration li{
+    justify-content: space-between;
+    
+}
+.migration .fa-solid{
+    padding: 10px 0;
+}
+.migration li select{
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: 115px;
+}
+#sflights{
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+#sflights a{
+    font-weight: 900;
+    /* font-size: large; */
+    text-decoration: none;
+    color: white;
+}
+
+.selectpack2{
+    display: inline-flex;
+}
+
+/* #nsfonlyy{
+    border: 1px solid blue;
+    height: 115px;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 1200px;
+} */
+
+
+
+
+@media(min-aspect-ratio:16/9){
+    .wlp{
+    width:100%;
+    height: auto;
+}
+}
+@media(max-aspect-ratio:16/9){
+    .wlp{
+    width:auto;
+    height: 100%;
+}
+}
+
+#gallary-home-page{
+    padding-top: 450px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* .searchbx{
+    position: absolute;
+    left: 50%;
+    margin-top: 300px;
+    width: 100%;
+    max-width: 900px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+    
+    }
+    .searchbx h1{
+    background: transparent;
+    text-shadow: 2px;
+    font:caption;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    display: inline-block;
+    margin: 10px 15px;
+    }
+    .searchbx form{
+    background: white;
+    opacity: 50%;
+    padding: 10px;
+    border-radius: 9px;
+    display: flex;
+    border: 2px solid black;
+    }
+    .searchbx form input{
+    background: transparent;
+    color: darkblue;
+    font-style:italic dark;
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    font-size: 18px;
+    }
+    .searchbx form button{
+    background: red;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    } */
+
+    
+    
+  
+        /* .nav-links li a::after{
+        content: '';
+        background: red;
+        width: 0;
+        height: 1px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transition: width 0.5s;
+        } 
+         .nav-links li a:hover::after{
+        width: 100%;
+        }*/
