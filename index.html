@@ -1,16 +1,15 @@
 
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TravelWithMe</title>
     
-    <link rel="shortcut icon" href="./images/favicon_io/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../images/favicon_io/favicon.ico" type="image/x-icon">
     <!-- page icon downloaded from faviconsite -->
 
-    <link rel="stylesheet" href="./homePage/home.css"/>
+    <link rel="stylesheet" href="home.css">
     <!-- refer the stylesheet -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     <!-- to use font-awesome icons in html code link>>> https://cdnjs.com/libraries/font-awesome  -->
@@ -22,16 +21,16 @@
         <div class="navbar">
         <nav class="nav-links">
             <!-- navigation bar -->
-            <a href=""><img src="./images/websitelogo.png" class="logo" alt="logo" width="156" height="56"></a>
+            <a href=""><img src="../images/websitelogo.png" class="logo" alt="logo" width="156" height="56"></a>
             <ul>
                 <li class="active"><a href="" style="color: white;">Home</a></li>
-                <li><a href="./gallaryPage/gallary.html" style="color: white;" target="_blank">Gallary</a></li>
-                <li><a href="./homePage/errorPage.html" target="_blank" style="color: white;">Packages</a></li>
-                <li><a href="./homePage/errorPage.html" target="_blank" style="color: white;">Contact</a></li>
-                <li><a href="./homePage/errorPage.html" target="_blank" style="color: white;">Feedback</a></li>
+                <li><a href="../gallaryPage/gallary.html" style="color: white;" target="_blank">Gallary</a></li>
+                <li><a href="./errorPage.html" target="_blank" style="color: white;">Packages</a></li>
+                <li><a href="./errorPage.html" target="_blank" style="color: white;">Contact</a></li>
+                <li><a href="./errorPage.html" target="_blank" style="color: white;">Feedback</a></li>
             </ul>
             <ul>
-                <li id="loginbtn"><a href="./homePage/errorPage.html" target="_blank" style="color: white;">LOGIN</a></li>
+                <li id="loginbtn"><a href="./errorPage.html" target="_blank" style="color: white;">LOGIN</a></li>
             </ul>
         </nav>
         </div>
@@ -39,7 +38,7 @@
 
         <div class="rex">
             <ul>
-             <li class="active1"><a  href=""><i class="fa-solid fa-plane"></i> Flights</a> </li>
+             <li class="active1"><a href=""><i class="fa-solid fa-plane"></i> Flights</a> </li>
              <li><a href=""><i class="fa-solid fa-bed"></i> Hotels </a> </li>
              <li><a href=""><i class="fa-solid fa-home"></i> Home Stays </a> </li>
              <li><a href=""><i class="fa-solid fa-train-tram"></i> Trains </a> </li>
@@ -73,7 +72,7 @@
                                     </optgroup>
                                 </select> </li>
                                 <li style="width: 20px;"></li>
-                                <li > <i class="fa-solid fa-arrow-right-arrow-left"></i> </li>
+                                <li> <i class="fa-solid fa-arrow-right-arrow-left"></i> </li>
                                 <li style="width: 20px;"></li>
                                 <li style="width: 240px;"> <select style="width: 240px;" name="arrival" id="arrival">
                                     <optgroup label="India">
@@ -92,7 +91,7 @@
                         </select> </li>
                         <li style="width: 80px;"></li>
                         <li>
-                            <button id="sflights"><a href="./homePage/errorPage.html" target="_blank"> Search Flights</a></button>
+                            <button id="sflights"><a href="../homePage/errorPage.html" target="_blank"> Search Flights</a></button>
                         </li>
                     </ul>
                     <br>
@@ -107,10 +106,10 @@
                     </ul>
                     <br>
                     <ul type="none" class="selectpack2">
-                        <li style="width: 116px;"><input type="date" name="deparature" id="deparature"></li>
-                        <li style="width: 115px;"><input type="date" name="return" id="return"></li>
-                        <li style="width: 70px;"></li>
-                        <li style="width: 116px;"><select style="width: 116px;" name="passengers" id="">
+                        <li style="width: 116px;"><input style="height: 40px; border-radius: 5px;" type="date" name="deparature" id="deparature"></li>
+                        <li style="width: 115px;"><input style="height: 40px; border-radius: 5px;" type="date" name="return" id="return"></li>
+                        <li style="width: 70px;height: 40px;"></li>
+                        <li style="width: 116px;"><select style="width: 116px;  height: 40px; border-radius: 5px;" name="passengers" id="">
                             <optgroup label="adult">
                             <option value="">1 adult</option>
                             <option value="">2 adults</option>
@@ -126,21 +125,19 @@
                             <option value="">Economy</option>
                             <option value="">Premium</option>
                             <option value="">Business</option>
-                            <option value="">First</option> 
-                        </li>
-                        <li style="width: 20px;"> </li>
-                    <li>
-                        <div id="nsfonlyy">
-                        <input type="checkbox" name="nsfonly" id="nsfonly">
-                        <label  for="nsfonly">Nonstop flights only</label>
-                    </div>
-                    </li>
-                    </ul>
-                </form>
-            </fieldset>
+                            <option value="">First</option> </select></li>
+<li style="width: 70px;"></li>
+    <input type="checkbox" name="nsfonly" id="nsfonly">
+                        <label for="nsfonly">Nonstop flights only</label>
+
+</ul></form></fieldset></div>
+                    
+                    
+                
+            
         </div>
     </div>              
-</div>
+
 
 
 <div id="gallary-home-page">
@@ -154,21 +151,21 @@
         <div class="places">
             <div class="maharashtraGallary">
                <section>
-                <a href=""><img src="./gallaryPage/pictures/Maharashtra2.jpg" alt="maharashtraGallary">
+                <a href=""><img src="../gallaryPage/pictures/Maharashtra2.jpg" alt="maharashtraGallary">
                 <p>MAHARASHTRA</p></a>
                </section> 
             </div>
 
             <div class="karnatakaGallary">
                 <section>
-                    <a href=""><img src="./gallaryPage/pictures/Karnataka2.jpg" alt="karnatakaGallary">
+                    <a href=""><img src="../gallaryPage/pictures/Karnataka2.jpg" alt="karnatakaGallary">
                     <p>KARNATAKA</p></a>
                    </section> 
             </div>
 
             <div class="goaGallary">
                 <section>
-                    <a href=""><img src="./gallaryPage/pictures/goa.jpg" alt="goaGallary">
+                    <a href=""><img src="../gallaryPage/pictures/goa.jpg" alt="goaGallary">
                     <p>GOA</p></a>
                    </section> 
             </div>
@@ -177,28 +174,26 @@
         <div class="places">
             <div class="delhiGallary">
                 <section>
-                    <a href=""><img src="./gallaryPage/pictures/delhi2.jpg" alt="delhiGallary">
+                    <a href=""><img src="../gallaryPage/pictures/delhi2.jpg" alt="delhiGallary">
                     <p>DELHI</p></a>
                 </section> 
             </div>
 
             <div class="rajasthanGallary">
                 <section>
-                    <a href=""><img src="./gallaryPage/pictures/RAJASTAN.png" alt="rajasthanGallary">
+                    <a href=""><img src="../gallaryPage/pictures/RAJASTAN.png" alt="rajasthanGallary">
                     <p>RAJASTHAN</p></a>
                 </section>
             </div>
 
             <div class="keralaGallary">
                 <section>
-                    <a href=""><img src="./gallaryPage/pictures/KERELA2.jpg" alt="keralaGallary">
+                    <a href=""><img src="../gallaryPage/pictures/KERELA2.jpg" alt="keralaGallary">
                     <p>KERALA</p></a>
                 </section>
             </div>
         </div>
         </div>
     </div>
-</div>
 
-</body>
-</html>
+</body></html>
